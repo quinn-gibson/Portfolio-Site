@@ -1,7 +1,7 @@
 const App = () => {
   return (
     <>
-      <h1>clean template</h1>
+      <h1>hello</h1>
     </>
   )
 }
