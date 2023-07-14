@@ -1,9 +1,9 @@
-const App = () => {
-  return (
-    <>
-      <h1>meow</h1>
-    </>
-  )
-}
+import About from './About'
+
+const App = () => (
+  <>
+    <About />
+  </>
+)
 
 export default App
