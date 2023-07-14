@@ -1,9 +1,19 @@
 import { PiProjectorScreenChart } from 'react-icons/pi'
 import { SiGithub, SiLinkedin } from 'react-icons/si'
+import { Link } from 'react-router-dom'
 
 const About = () => {
   return (
     <>
+      <div className="header-links">
+        <Link to="resume" className="resume">
+          <p className="position-header-links">Resume</p>
+        </Link>
+        <Link to="contact" className="contact">
+          <p className="position-header-links">Contact</p>
+        </Link>
+      </div>
+
       <h1>QUINN GIBSON</h1>
       <h2>Full Stack Software Developer</h2>
       <div className="about-content">
@@ -25,16 +35,32 @@ const About = () => {
       </div>
       <div className="links">
         <div className="projects">
-          <PiProjectorScreenChart />
-          <p>Projects</p>
+          <Link to="projects" className="projects">
+            <PiProjectorScreenChart />
+            <p>Projects</p>
+          </Link>
         </div>
         <div className="github">
-          <SiGithub />
-          <p>Github</p>
+          <a
+            className="github"
+            href="https://github.com/quinn-gibson"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <SiGithub />
+            <p>Github</p>
+          </a>
         </div>
         <div className="linkedin">
-          <SiLinkedin />
-          <p>Linkedin</p>
+          <a
+            className="linkedin"
+            href="https://www.linkedin.com/in/quinn-gibson-687863281/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <SiLinkedin />
+            <p>LinkedIn</p>
+          </a>
         </div>
       </div>
     </>
