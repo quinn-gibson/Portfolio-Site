@@ -6,9 +6,9 @@ const About = () => {
   return (
     <>
       <div className="header-links">
-        <Link to="resume" className="resume">
+        <a href="../../public/Quinn-Gibson-Resume-2023.pdf" target="_blank">
           <p className="position-header-links">Resume</p>
-        </Link>
+        </a>
         <Link to="contact" className="contact">
           <p className="position-header-links">Contact</p>
         </Link>

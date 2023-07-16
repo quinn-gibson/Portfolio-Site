@@ -6,9 +6,9 @@ const Contact = () => (
       <Link to="/" className="home-button">
         <p className="position-header-links">Home</p>
       </Link>
-      <Link to="/resume" className="resume">
+      <a href="../../public/Quinn-Gibson-Resume-2023.pdf" target="_blank">
         <p className="position-header-links">Resume</p>
-      </Link>
+      </a>
       <Link to="/projects" className="projects">
         <p className="position-header-links">Projects</p>
       </Link>
