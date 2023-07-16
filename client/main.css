@@ -54,3 +54,21 @@ svg {
 .position-header-links {
   margin-right: 35px;
 }
+
+.project-imgs {
+  height: 250px;
+  width: 370px;
+  border-right: 1px solid white;
+}
+
+.love-project, .quiz-project, .web-project {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid white;
+  margin: 20px 50px;
+}
+
+.project-content {
+  padding: 0px 10px;
+}
+
