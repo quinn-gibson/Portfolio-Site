@@ -18,7 +18,11 @@ const Projects = () => (
     <p>*gituhb links not yet active</p>
 
     <div className="love-project">
-      <img src="public/images/love-calc.png" alt="" className="project-imgs" />
+      <img
+        src="../../public/images/love-calc.png"
+        alt=""
+        className="project-imgs"
+      />
       <div className="project-content">
         <h2>Love Calculator</h2>
         <p>
@@ -35,7 +39,11 @@ const Projects = () => (
     </div>
 
     <div className="quiz-project">
-      <img src="#" alt="" className="project-imgs" />
+      <img
+        src="../../public/images/placeholder.png"
+        alt=""
+        className="project-imgs"
+      />
       <div className="project-content">
         <h2>Quiz Master</h2>
         <p>
@@ -53,7 +61,7 @@ const Projects = () => (
 
     <div className="web-project">
       <img
-        src="public/images/web-palette.png"
+        src="../../public/images/web-palette.png"
         alt=""
         className="project-imgs"
       />
