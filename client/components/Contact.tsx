@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import resume from '../../public/Quinn-Gibson-Resume-2023.pdf'
 
 const Contact = () => (
   <>
@@ -6,7 +7,7 @@ const Contact = () => (
       <Link to="/" className="home-button">
         <p className="position-header-links">Home</p>
       </Link>
-      <a href="../../public/Quinn-Gibson-Resume-2023.pdf" target="_blank">
+      <a href={resume} target="_blank" rel="noopener noreferrer">
         <p className="position-header-links">Resume</p>
       </a>
       <Link to="/projects" className="projects">

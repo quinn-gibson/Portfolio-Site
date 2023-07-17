@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import resume from '../../public/Quinn-Gibson-Resume-2023.pdf'
 
 const Projects = () => (
   <>
@@ -6,7 +7,7 @@ const Projects = () => (
       <Link to="/">
         <p className="position-header-links">Home</p>
       </Link>
-      <a href="../../public/Quinn-Gibson-Resume-2023.pdf" target="_blank">
+      <a href={resume} target="_blank" rel="noopener noreferrer">
         <p className="position-header-links">Resume</p>
       </a>
       <Link to="/contact" className="contact">
@@ -18,11 +19,7 @@ const Projects = () => (
     <p>*gituhb links not yet active</p>
 
     <div className="love-project">
-      <img
-        src="../../public/images/love-calc.png"
-        alt=""
-        className="project-imgs"
-      />
+      <img src="../../images/love-calc.png" alt="" className="project-imgs" />
       <div className="project-content">
         <h2>Love Calculator</h2>
         <p>
@@ -39,11 +36,7 @@ const Projects = () => (
     </div>
 
     <div className="quiz-project">
-      <img
-        src="../../public/images/placeholder.png"
-        alt=""
-        className="project-imgs"
-      />
+      <img src="../../images/placeholder.png" alt="" className="project-imgs" />
       <div className="project-content">
         <h2>Quiz Master</h2>
         <p>
@@ -60,11 +53,7 @@ const Projects = () => (
     </div>
 
     <div className="web-project">
-      <img
-        src="../../public/images/web-palette.png"
-        alt=""
-        className="project-imgs"
-      />
+      <img src="../../images/web-palette.png" alt="" className="project-imgs" />
       <div className="project-content">
         <h2>Website Colour Palette</h2>
         <p>

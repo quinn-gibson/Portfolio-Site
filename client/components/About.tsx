@@ -2,11 +2,13 @@ import { PiProjectorScreenChart } from 'react-icons/pi'
 import { SiGithub, SiLinkedin } from 'react-icons/si'
 import { Link } from 'react-router-dom'
 
+import resume from '../../public/Quinn-Gibson-Resume-2023.pdf'
+
 const About = () => {
   return (
     <>
       <div className="header-links">
-        <a href="../../public/Quinn-Gibson-Resume-2023.pdf" target="_blank">
+        <a href={resume} target="_blank" rel="noopener noreferrer">
           <p className="position-header-links">Resume</p>
         </a>
         <Link to="contact" className="contact">
