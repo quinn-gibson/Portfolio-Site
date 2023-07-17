@@ -29,7 +29,11 @@ const Projects = () => (
           seconds, the app will generate a compatibility percentage accompanied
           by a short compatibility statement.
         </p>
-        <a href="#" target="_blank">
+        <a
+          href="https://github.com/quinn-gibson/Love-Calculator"
+          target="_blank"
+          rel="noreferrer"
+        >
           <p>Github Link</p>
         </a>
       </div>
@@ -64,7 +68,11 @@ const Projects = () => (
           effortlessly find the perfect palette to capture the essence of your
           vision.
         </p>
-        <a href="#" target="_blank">
+        <a
+          href="https://github.com/quinn-gibson/Website-Colour-Palette"
+          target="_blank"
+          rel="noreferrer"
+        >
           <p>Github Link</p>
         </a>
       </div>
