@@ -13,7 +13,22 @@ const Contact = () => (
         <p className="position-header-links">Projects</p>
       </Link>
     </div>
-    <h1>contact</h1>
+    <h1>Contact</h1>
+    <p>*I'm currently based in Christchurch, New Zealand.</p>
+    <div className="contact-info">
+      <p>Cell Phone: 022-361-8680</p>
+      <p>Email Address: quinngiibson@gmail.com</p>
+      <p>
+        LinkedIn:{' '}
+        <a
+          href="https://www.linkedin.com/in/quinn-gibson-687863281/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Click Here
+        </a>
+      </p>
+    </div>
   </>
 )
 
