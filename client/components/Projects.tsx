@@ -16,7 +16,7 @@ const Projects = () => (
     </div>
 
     <h1>Projects</h1>
-    <p>*gituhb links not yet active</p>
+    <p>*github links not yet active</p>
 
     <div className="love-project">
       <img src="../../images/love-calc.png" alt="" className="project-imgs" />
