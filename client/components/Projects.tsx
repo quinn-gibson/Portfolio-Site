@@ -16,7 +16,6 @@ const Projects = () => (
     </div>
 
     <h1>Projects</h1>
-    <p>*github links not yet active</p>
 
     <div className="love-project">
       <img src="../../images/love-calc.png" alt="" className="project-imgs" />
@@ -40,7 +39,7 @@ const Projects = () => (
     </div>
 
     <div className="quiz-project">
-      <img src="../../images/placeholder.png" alt="" className="project-imgs" />
+      <img src="../../images/quiz.png" alt="" className="project-imgs" />
       <div className="project-content">
         <h2>Quiz Master</h2>
         <p>
@@ -50,7 +49,11 @@ const Projects = () => (
           graphics and retro sounds, where you'll put your knowledge to the
           test. Get one right? Move onto the next. Get one wrong? Game OVER!
         </p>
-        <a href="#" target="_blank">
+        <a
+          href="https://github.com/quinn-gibson/Quiz-Master"
+          target="_blank"
+          rel="noreferrer"
+        >
           <p>Github Link</p>
         </a>
       </div>
