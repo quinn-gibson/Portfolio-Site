@@ -56,8 +56,8 @@ svg {
 }
 
 .project-imgs {
-  height: 250px;
-  width: 370px;
+  height: 280px;
+  width: 400px;
   border-right: 1px solid white;
 }
 
@@ -65,11 +65,12 @@ svg {
   display: flex;
   flex-direction: row;
   border: 1px solid white;
-  margin: 20px 50px;
+  margin: 30px 60px;
 }
 
 .project-content {
   padding: 0px 10px;
+  height: 280px;
 }
 
 .contact-info {

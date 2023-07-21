@@ -16,6 +16,12 @@ const Projects = () => (
     </div>
 
     <h1>Projects</h1>
+    <p>
+      These 3 projects were created during Friday Group Projects at Dev Academy.
+      <br></br>
+      In groups of 4, we would plan out something to build and have one day to
+      do so before presenting at the end of the day.
+    </p>
 
     <div className="love-project">
       <img src="../../images/love-calc.png" alt="" className="project-imgs" />
@@ -28,6 +34,7 @@ const Projects = () => (
           seconds, the app will generate a compatibility percentage accompanied
           by a short compatibility statement.
         </p>
+        <p>Tech/tools used: TypeScript, React.js</p>
         <a
           href="https://github.com/quinn-gibson/Love-Calculator"
           target="_blank"
@@ -49,6 +56,8 @@ const Projects = () => (
           graphics and retro sounds, where you'll put your knowledge to the
           test. Get one right? Move onto the next. Get one wrong? Game OVER!
         </p>
+        <p>Tech/tools used: TypeScript, React.js, Redux, Express.js, API</p>
+
         <a
           href="https://github.com/quinn-gibson/Quiz-Master"
           target="_blank"
@@ -71,6 +80,8 @@ const Projects = () => (
           effortlessly find the perfect palette to capture the essence of your
           vision.
         </p>
+        <p>Tech/tools used: JavaScript, Express.js</p>
+
         <a
           href="https://github.com/quinn-gibson/Website-Colour-Palette"
           target="_blank"
