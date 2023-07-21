@@ -21,6 +21,9 @@ const Projects = () => (
       <br></br>
       In groups of 4, we would plan out something to build and have one day to
       do so before presenting at the end of the day.
+      <br></br>
+      These were all fun projects to work on as I was able to work
+      collaboratively and implement the concepts I'd learnt that week.
     </p>
 
     <div className="love-project">
