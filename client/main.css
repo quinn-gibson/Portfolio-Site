@@ -61,7 +61,7 @@ svg {
   border-right: 1px solid white;
 }
 
-.love-project, .quiz-project, .web-project {
+.love-project, .quiz-project, .web-project, .bnana-project {
   display: flex;
   flex-direction: row;
   border: 1px solid white;

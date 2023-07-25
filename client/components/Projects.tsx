@@ -16,15 +16,29 @@ const Projects = () => (
     </div>
 
     <h1>Projects</h1>
-    <p>
-      These 3 projects were created during Friday Group Projects at Dev Academy.
-      <br></br>
-      In groups of 4, we would plan out something to build and have one day to
-      do so before presenting at the end of the day.
-      <br></br>
-      These were all fun projects to work on as I was able to work
-      collaboratively and implement the concepts I'd learnt that week.
-    </p>
+
+    <div className="bnana-project">
+      <img src="../../images/bnana.png" alt="" className="project-imgs" />
+      <div className="project-content">
+        <h2>Bnana.</h2>
+        <p>
+          A delightful experience for all banana enthusiasts. Bnana lets you
+          explore an exquisite collection of designer bananas, each meticulously
+          crafted to bring joy to your senses. Bnana also takes you on an
+          inspiring journey into the minds behind this fruity wonderland. Learn
+          about the passionate founders of the company, their vision, and the
+          heartwarming story behind the inception of Bnana.
+        </p>
+        <p>Tech/tools used: TypeScript, React.js, API</p>
+        <a
+          href="https://github.com/quinn-gibson/bnanas"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <p>Github Link</p>
+        </a>
+      </div>
+    </div>
 
     <div className="love-project">
       <img src="../../images/love-calc.png" alt="" className="project-imgs" />
